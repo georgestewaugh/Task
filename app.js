@@ -2,7 +2,7 @@
 
 const http=require ('http');
 
-function rqListener(req,resres){
+function rqListener(req,res){
     console.log(req);
 
 }
@@ -15,4 +15,5 @@ rqListener=(req,res)=>{
     console.log(req);
 
 server.listen(3000)
+
 */
